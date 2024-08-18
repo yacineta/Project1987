@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: "Poppins", sans-serif; */
+/*  */
+.navbar{
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --wwbkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom:  solid gray !important;
+}
+.nav-link{
+  font-weight: 300 !important;
+}
+.active{
+  
+  border-bottom: 1px solid black;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+.footer{
+  color: white;
+  padding: 25px;
+  background: #4d4d4d;
+  background: -webkit-linear-gradient(to right,#9c9c9c,#0000,);
+  background: linear-gradient(to right,#9c9c9c,#0000,);
+
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover{
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-titel{
+  font-size: 100px;
+  font-weight: 700;
+  color: #ab0808;
+}
+.pnf-heading{
+  font-weight: normal;
+  color: #ab0808;
+}
+.pnf-btn{
+  background: #9c9c9c;
+  color: black;
+  border: 0.5px solid rgb(58, 56, 56);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+ 
+}
+.pnf-btn:hover{
+  background: #880fc5;
+  color: white;
+}
+.contacus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+register{
+  display: flex;
+  background: #cec9c9;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+}
+register form{
+  background: #640395;
+  width: 40%;
+  height: 60vh;
+  border-radius: 10px;
+
+}
+form-control {
+  width: 80%;
+  margin: 30px ;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}

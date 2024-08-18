@@ -1,0 +1,11 @@
+.container{
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+}
